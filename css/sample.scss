@@ -246,7 +246,7 @@ header{
   }
   // .columns
 
-　　padding-top:20px;
+padding-top:20px;
 
   @media (min-width: 551px) {
     padding-top: 30px;
@@ -453,7 +453,12 @@ footer{
 
   }
   // min-width: 551p
-
+  
+@media (min-width: 550px){
+footer .foot_navi {
+    float: right;
+}
+}
 
 }
 // footer
@@ -563,7 +568,11 @@ h1{
     padding-bottom: 20px;
 }
 
-
+@media (max-width: 550px){
+#contents #sidebar .pc_sidemenu {
+    display: none;
+}
+}
 
 #contents #sidebar .pc_sidemenu h3 {
     color: #42b9d0;
