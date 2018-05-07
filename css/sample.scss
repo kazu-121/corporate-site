@@ -292,11 +292,13 @@ padding-top:20px;
         font-weight: bold;
         display: block;
         margin-bottom: 3px;
-      }
-    }
+}
+}
     // li
   }
   // .news_lists
+  
+ 
 
   @media (min-width: 551px) {
 
@@ -454,11 +456,6 @@ footer{
   }
   // min-width: 551p
   
-@media (min-width: 550px){
-footer .foot_navi {
-    float: right;
-}
-}
 
 }
 // footer
@@ -555,6 +552,7 @@ h1{
 #contents #main .news_li {
     font-size: 15px;
     font-size: 1.5rem;
+    list-style: none;
 }
 
 @media (min-width: 550px){

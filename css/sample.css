@@ -239,9 +239,6 @@ footer {
           color: #eaf2f4; }
       footer .copy {
         margin-top: 30px; } }
-  @media (min-width: 550px) {
-    footer footer .foot_navi {
-      float: right; } }
 
 h1 {
   margin: 0;
@@ -309,7 +306,8 @@ h1 {
     padding-right: 10px; } }
 #contents #main .news_li {
   font-size: 15px;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  list-style: none; }
 
 @media (min-width: 550px) {
   #contents #main .news_li li {
